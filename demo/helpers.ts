@@ -23,3 +23,7 @@ export function addCourseToProgram(program:Program,course:Course){
 
 }
 
+export function combineTwoItems<T>(item1: T, item2: T): T[] {
+    return [item1, item2];
+  }
+

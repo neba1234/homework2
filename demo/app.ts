@@ -11,3 +11,15 @@ addFacultyToCourse(mwp, keith);
 addCourseToProgram(msd, mwp);
 
 console.dir(msd, { depth: null });
+
+
+
+
+// app.ts
+import { combineTwoItems } from "./helpers";
+
+const theo: string[] = combineTwoItems("Theo", "Saad");
+const grades: number[] = combineTwoItems(100, 95);
+
+console.log(theo);  // Output: [ "Theo", "Saad" ]
+console.log(grades);  // Output: [ 100, 95 ]
